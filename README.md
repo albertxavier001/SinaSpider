@@ -3,7 +3,7 @@ Sina Weibo Spider in Python
 
 ## Usage
 
-1. python spider.py
+1. `python spider.py`
 2. Input your Sina Weibo username
 3. Input your Sina Weibo password
 4. Input keyword
