@@ -207,8 +207,9 @@ def searchNum(uni):
     return int(numeric) # returns 100
 
 def main():
-    username = raw_input('Input your username')
-    password = raw_input('Input your password')
+    username = raw_input('Input your username: ')
+    password = raw_input('Input your password: ')
+    print ('username: %s' % username)
     user = login.WeiboLogin(username, password)
     user.login()
 
